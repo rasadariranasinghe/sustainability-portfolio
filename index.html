@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rasadari Ranasinghe - Sustainability &amp; ESG Portfolio</title>
+<meta name="description" content="Sustainability and ESG portfolio of Rasadari Ranasinghe: ESG coordination, first-author Springer research on urban wetlands, sustainability reporting, GIS and ESG data work. Toronto, Ontario.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f5f1; --surface:#ffffff; --ink:#1e2420; --ink-soft:#49524c; --ink-faint:#6d766f;
+  --accent:#175e4c; --accent-ink:#0f4636; --accent-soft:#e2efe9; --gold:#a4761b;
+  --line:#ddd8cb; --line-strong:#c9c2b0; --chip-bg:#eef3f0;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:"Source Sans 3","Segoe UI",system-ui,sans-serif;font-size:17px;line-height:1.6}
+h1,h2,h3{font-family:"Source Serif 4",Georgia,serif;color:var(--ink)}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+nav{position:sticky;top:0;background:rgba(246,245,241,.94);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);z-index:50}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:12px;padding-bottom:12px;flex-wrap:wrap;gap:8px}
+nav .brand{font-family:"Source Serif 4",Georgia,serif;font-weight:700;font-size:19px;color:var(--ink)}
+nav .links a{margin-left:18px;color:var(--ink-soft);font-size:15.5px;font-weight:600}
+nav .links a:hover{color:var(--accent-ink);text-decoration:none}
+header.hero{padding:64px 0 8px}
+.kicker{letter-spacing:.14em;text-transform:uppercase;font-size:13px;font-weight:700;color:var(--gold)}
+header.hero h1{font-size:52px;line-height:1.08;margin:10px 0 6px}
+header.hero .role{font-size:22px;color:var(--accent-ink);font-weight:600}
+header.hero .loc{color:var(--ink-faint);margin-top:4px}
+.hero-img{margin:34px 0 6px;border-radius:14px;overflow:hidden;border:1px solid var(--line-strong)}
+.hero-img img{width:100%;height:340px;object-fit:cover;display:block}
+.btnrow{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0 6px}
+.btn{display:inline-block;padding:10px 20px;border-radius:999px;font-weight:700;font-size:15.5px;border:1.5px solid var(--accent)}
+.btn.solid{background:var(--accent);color:#fff}
+.btn.solid:hover{background:var(--accent-ink);text-decoration:none}
+.btn.ghost{color:var(--accent-ink);background:transparent}
+.btn.ghost:hover{background:var(--accent-soft);text-decoration:none}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:26px 0 6px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.stat b{display:block;font-family:"Source Serif 4",Georgia,serif;font-size:21px;color:var(--accent-ink);line-height:1.25}
+.stat span{font-size:14.5px;color:var(--ink-soft)}
+section{padding:44px 0 6px}
+section h2{font-size:31px;margin-bottom:6px}
+section .sub{color:var(--ink-soft);max-width:760px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:26px 28px;margin-top:18px}
+.card h3{font-size:22px;margin-bottom:4px}
+.meta{color:var(--ink-faint);font-size:15px;font-weight:600}
+.card ul{margin:10px 0 0 20px}
+.card li{margin-bottom:6px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.chips{margin-top:12px}
+.chip{display:inline-block;background:var(--chip-bg);border:1px solid var(--line);border-radius:999px;padding:4px 13px;font-size:14.5px;margin:0 6px 8px 0;color:var(--ink-soft)}
+.pub{display:grid;grid-template-columns:1.05fr .95fr;gap:0;overflow:hidden;padding:0}
+.pub .txt{padding:28px}
+.pub .img{min-height:320px}
+.pub .img img{width:100%;height:100%;object-fit:cover;display:block}
+.journal{color:var(--gold);font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:13.5px}
+table{width:100%;border-collapse:collapse;margin-top:12px;font-size:15.5px}
+th,td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top}
+th{background:var(--accent-soft);color:var(--accent-ink);font-weight:700}
+.sampletag{display:inline-block;background:var(--gold);color:#fff;font-size:12.5px;font-weight:700;letter-spacing:.08em;padding:3px 10px;border-radius:999px;text-transform:uppercase}
+.skills h3{font-size:18.5px;color:var(--accent-ink);margin-bottom:6px}
+.skills p{color:var(--ink-soft);font-size:16px}
+footer{margin-top:56px;border-top:1px solid var(--line);padding:26px 0 40px;color:var(--ink-faint);font-size:15px}
+@media(max-width:820px){
+  .stats{grid-template-columns:1fr 1fr}
+  .grid2,.grid3,.pub{grid-template-columns:1fr}
+  header.hero h1{font-size:38px}
+  .hero-img img{height:220px}
+  nav .links a{margin-left:12px}
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="wrap">
+    <span class="brand">Rasadari Ranasinghe</span>
+    <span class="links">
+      <a href="#about">About</a><a href="#publication">Publication</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#writing">Writing</a><a href="#contact">Contact</a>
+    </span>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Sustainability &amp; ESG Portfolio</p>
+    <h1>Rasadari Ranasinghe</h1>
+    <p class="role">ESG Coordinator | Sustainability Research | ESG Data &amp; Reporting</p>
+    <p class="loc">Toronto, Ontario | Available to start immediately</p>
+    <div class="btnrow">
+      <a class="btn solid" href="files/Rasadari_Ranasinghe_Sustainability_Profile.pdf">Download Sustainability Profile (PDF)</a>
+      <a class="btn ghost" href="https://doi.org/10.1007/s11252-025-01837-w" target="_blank" rel="noopener">Read the Springer Publication</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/rasadari-ranasinghe-815486254/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn ghost" href="https://github.com/rasadariranasinghe" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <div class="hero-img"><img src="images/hero-wetland.jpg" alt="Aerial view of an urban wetland with winding waterways and paddy fields beside a city skyline at golden hour"></div>
+    <div class="stats">
+      <div class="stat"><b>First-Author Publication</b><span>Peer-reviewed paper in Urban Ecosystems (Springer), 2025, as first and corresponding author</span></div>
+      <div class="stat"><b>3 Wetlands, 20 Years</b><span>Land use change tracked across three Colombo wetlands, 2001 to 2021, with Landsat imagery and GIS</span></div>
+      <div class="stat"><b>ESG Coordination</b><span>SDG research, sustainability data validation and reporting trackers in a current ESG role at Vosyn Inc.</span></div>
+      <div class="stat"><b>First-Class Honours</b><span>B.Sc. Environmental Sciences, University of Colombo, GPA 3.77 / 4.30</span></div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <h2>About</h2>
+    <div class="card">
+      <p>Environmental Sciences graduate with First-Class Honours and first-author peer-reviewed research in <i>Urban Ecosystems</i> (Springer), bringing experience in environmental analysis, sustainability research, GIS and remote sensing. Currently an ESG Coordinator supporting ESG and sustainability research: organizing source documentation, validating sustainability data, and maintaining reporting trackers and deliverables.</p>
+      <p style="margin-top:10px">Skilled in Excel, Tableau, Python (Pandas) and SQL for data cleaning, quality checks, KPI and trend analysis, and clear reporting through dashboards and workbooks. Practical exposure to carbon-emissions baselines, CDP data checks, Scope 3 reduction options and Net Zero recommendations through the BCG Climate &amp; Sustainability Job Simulation. Strong research and communication skills, with experience preparing reports and presentations and coordinating work to meet deadlines.</p>
+    </div>
+  </div>
+</section>
+
+<section id="publication">
+  <div class="wrap">
+    <h2>Featured Publication</h2>
+    <p class="sub">Peer-reviewed research on how urban growth is reshaping the wetlands that protect Colombo from flooding.</p>
+    <div class="card pub">
+      <div class="txt">
+        <p class="journal">Urban Ecosystems | Springer | 2025</p>
+        <h3>Land Use and Land Cover Transformation in Urban Wetlands in Colombo District, Sri Lanka</h3>
+        <p class="meta">Ranasinghe, R.R. (first author and corresponding author), Wickramasinghe, D., Maltby, E. &amp; Witharana, A. Urban Ecosystems 28, 242 (2025)</p>
+        <ul>
+          <li>Analyzed land use and land cover change across three urban wetlands, Thalangama Environmental Protection Area, Bellanwila-Attidiya Wetland and Boralesgamuwa Lake, over two decades (2001–2021).</li>
+          <li>Classified multi-temporal Landsat imagery in ArcGIS and Google Earth Pro to detect spatial and temporal change, validated with field data.</li>
+          <li>Found a consistent pattern of declining vegetation and paddy fields alongside expanding built-up and open areas, with open water at Boralesgamuwa Lake also expanding through hydrological modifications.</li>
+          <li>Showed how protection status, land-use history and infrastructure projects push each wetland along a different transformation path, and recommended stricter land-use regulation, buffer zone protection and community-based conservation.</li>
+        </ul>
+        <div class="chips">
+          <span class="chip">GIS &amp; Remote Sensing</span><span class="chip">Landsat Imagery</span><span class="chip">Change Detection</span><span class="chip">Ecosystem Services</span><span class="chip">Urban Wetlands</span><span class="chip">Field Validation</span>
+        </div>
+        <p style="margin-top:12px"><a href="https://doi.org/10.1007/s11252-025-01837-w" target="_blank" rel="noopener"><b>Read the article (DOI: 10.1007/s11252-025-01837-w)</b></a></p>
+      </div>
+      <div class="img"><img src="images/field-research.jpg" alt="A researcher taking field notes at the edge of a wetland with reeds and shallow water"></div>
+    </div>
+
+    <div class="grid2">
+      <div class="card">
+        <p class="journal">Conference Abstract | 2023</p>
+        <h3>Wetland Degradation and Ecosystem Services in Colombo District</h3>
+        <p class="meta">First author | 27th International Forestry and Environment Symposium</p>
+        <p style="margin-top:8px">Examined how wetland degradation in Colombo District affects the ecosystem services those wetlands provide, including flood control and water purification.</p>
+      </div>
+      <div class="card">
+        <p class="journal">Conference Abstract | 2022</p>
+        <h3>Land Use Transformation and Ecosystem Services in Thalangama</h3>
+        <p class="meta">First author | Postgraduate Institute of Science (PGIS) Research Congress, Abstract No. 214</p>
+        <p style="margin-top:8px">Presented land use transformation findings for the Thalangama wetland and what the changes mean for the services the wetland provides to surrounding communities.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <h2>Experience</h2>
+    <div class="card">
+      <h3>ESG Coordinator | Vosyn Inc., Toronto, ON</h3>
+      <p class="meta">May 2026 – Present</p>
+      <ul>
+        <li>Support ESG and sustainability research and reporting workflows by organizing source information, maintaining documentation and trackers, and preparing materials for internal review.</li>
+        <li>Collect, structure and validate sustainability-related information; check records and supporting sources for accuracy, consistency and completeness, and flag information requiring clarification.</li>
+        <li>Research sustainability topics and the United Nations Sustainable Development Goals (SDGs), then organize findings into clear summaries for internal stakeholders.</li>
+        <li>Coordinate documentation, task timelines and deliverables across assignments; maintain orderly records and communicate progress and follow-up needs to team members.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Teaching Assistant / MSc Program Coordinator | University of Colombo, Sri Lanka</h3>
+      <p class="meta">Aug 2022 – Aug 2023</p>
+      <ul>
+        <li>Supported environmental science and analytical-methods learning for 200+ students, including lab and practical sessions using ArcGIS, SPSS and Minitab.</li>
+        <li>Assisted students with lectures, examinations, assignments and field visits, and prepared academic materials explaining technical information clearly to students and faculty.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <h2>Projects &amp; Training</h2>
+    <div class="grid3">
+      <div class="card">
+        <p class="journal">Research Project</p>
+        <h3>Corporate Sustainability Reporting Project</h3>
+        <p class="meta">University of Colombo</p>
+        <p style="margin-top:8px">Prepared an academic sustainability report after engaging with a textile company and reviewing its previous sustainability reports. Examined reporting practices and indicators using GRI-related concepts, and presented the findings.</p>
+        <div class="chips"><span class="chip">GRI Concepts</span><span class="chip">Sustainability Reporting</span><span class="chip">Stakeholder Engagement</span></div>
+      </div>
+      <div class="card">
+        <p class="journal">Job Simulation | Forage</p>
+        <h3>BCG Climate &amp; Sustainability Simulation</h3>
+        <p class="meta">Boston Consulting Group | March 2026</p>
+        <p style="margin-top:8px">Calculated a carbon-emissions baseline in Excel and checked data against CDP information. Compared carbon-reduction initiatives, including Scope 3 options, developed Net Zero-aligned recommendations, and prepared a client-facing presentation, including responses to investor concerns.</p>
+        <div class="chips"><span class="chip">Carbon Baseline</span><span class="chip">CDP Data</span><span class="chip">Scope 3</span><span class="chip">Net Zero</span></div>
+      </div>
+      <div class="card">
+        <p class="journal">Data Project | GitHub</p>
+        <h3>Climate Change in Canada</h3>
+        <p class="meta">Python | Jupyter Notebook | Pandas</p>
+        <p style="margin-top:8px">Exploratory analysis of Canadian climate data in a Jupyter notebook, cleaning and examining temperature-related records with Python and Pandas.</p>
+        <div class="chips"><span class="chip">Python</span><span class="chip">Pandas</span><span class="chip">Climate Data</span></div>
+        <p style="margin-top:10px"><a href="https://github.com/rasadariranasinghe/Climate_Change_Canada" target="_blank" rel="noopener"><b>View on GitHub</b></a></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="sampletag">Sample</span>
+      <h3 style="margin-top:10px">Sample SDG Research Summary (excerpt)</h3>
+      <p class="meta">Illustrative sample of the SDG research summaries prepared in ESG coordination work. Sample content only.</p>
+      <table>
+        <tr><th style="width:18%">SDG</th><th style="width:34%">Research Focus</th><th>Example Finding</th></tr>
+        <tr><td><b>SDG 11</b> Sustainable Cities</td><td>Urban wetland protection in city planning</td><td>Wetland buffer zones reduce urban flood exposure; protection status strongly affects outcomes.</td></tr>
+        <tr><td><b>SDG 13</b> Climate Action</td><td>Carbon storage in urban green and blue spaces</td><td>Vegetation loss in peri-urban wetlands reduces local carbon storage and cooling benefits.</td></tr>
+        <tr><td><b>SDG 15</b> Life on Land</td><td>Ecosystem services of freshwater wetlands</td><td>Degraded wetlands show measurable declines in water purification and habitat services.</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <span class="sampletag">Sample</span>
+      <h3 style="margin-top:10px">Sample Sustainability Reporting Tracker (excerpt)</h3>
+      <p class="meta">Illustrative sample of a reporting tracker with data-quality checks. Sample content only.</p>
+      <table>
+        <tr><th style="width:26%">Reporting Item</th><th style="width:22%">Source</th><th style="width:18%">Status</th><th>Quality Check</th></tr>
+        <tr><td>Energy consumption data</td><td>Utility records</td><td>Validated</td><td>Totals cross-checked against invoices; gaps flagged for follow-up</td></tr>
+        <tr><td>Emissions factors</td><td>Published factor library</td><td>Validated</td><td>Factor year and region confirmed against reporting period</td></tr>
+        <tr><td>Policy documentation</td><td>Internal policy files</td><td>In review</td><td>Version and approval date to be confirmed with document owner</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <h2>Skills</h2>
+    <div class="grid2 skills">
+      <div class="card"><h3>ESG &amp; Sustainability</h3><p>ESG and sustainability research, sustainability data management support, sustainability reporting support, environmental analysis, Sustainable Development Goals (SDGs), carbon-emissions analysis, Scope 3 emissions, Net Zero strategies, CDP data review</p></div>
+      <div class="card"><h3>Data Analysis &amp; Reporting</h3><p>KPI analysis and tracking, trend analysis, data cleaning and standardization, data validation, data quality assurance, data integrity checks, dashboard development, data visualization, performance measurement</p></div>
+      <div class="card"><h3>Technical</h3><p>Microsoft Excel, Tableau, Python (Pandas), SQL, ArcGIS, Google Earth Pro, SPSS, Microsoft PowerPoint and Word, Google Workspace, Salesforce</p></div>
+      <div class="card"><h3>Documentation &amp; Coordination</h3><p>Research and analytical reports, sustainability documentation, reporting trackers, source documentation, data quality checks, presentation development, record maintenance, stakeholder communication, deliverable tracking</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <h2>Education &amp; Recognition</h2>
+    <div class="grid2">
+      <div class="card">
+        <h3>B.Sc. (Honours), Environmental Sciences</h3>
+        <p class="meta">University of Colombo, Sri Lanka | 2018 – 2022</p>
+        <p style="margin-top:8px">First-Class Honours, GPA 3.77 / 4.30. Undergraduate research on urban wetland change in Colombo District became the first-author Springer publication above.</p>
+      </div>
+      <div class="card">
+        <h3>Certificate in Data Analytics</h3>
+        <p class="meta">University of Toronto School of Continuing Studies | 2024</p>
+        <p style="margin-top:8px">Graded A+. Also holds the Salesforce Agentforce Specialist certification (2025).</p>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Recognition</h3>
+      <p style="margin-top:6px">YRES Volunteer Appreciation Award, 2026.</p>
+    </div>
+  </div>
+</section>
+
+<section id="writing">
+  <div class="wrap">
+    <h2>Writing</h2>
+    <div class="card">
+      <p>Alongside the research publications above, I write content that combines analytical insight with clear storytelling, including articles and AI-assisted creative projects.</p>
+      <p style="margin-top:10px"><a href="https://flaxen-beanie-341.notion.site/Content-Creator-Creative-Writer-2a3d13637c6a809bb641d05d67e56536" target="_blank" rel="noopener"><b>Content Creator &amp; Creative Writer portfolio (Notion)</b></a></p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <div class="card">
+      <p><b>Rasadari Ranasinghe</b> | Toronto, Ontario</p>
+      <p style="margin-top:6px">Email: <a href="mailto:rasadariravihari@gmail.com">rasadariravihari@gmail.com</a> | Phone: (647) 510-9744</p>
+      <p style="margin-top:6px"><a href="https://www.linkedin.com/in/rasadari-ranasinghe-815486254/" target="_blank" rel="noopener">LinkedIn</a> &nbsp;·&nbsp; <a href="https://github.com/rasadariranasinghe" target="_blank" rel="noopener">GitHub</a> &nbsp;·&nbsp; <a href="https://rasadariranasinghe.github.io/my_portfolio/" target="_blank" rel="noopener">Data Analyst Portfolio</a> &nbsp;·&nbsp; <a href="https://rasadariranasinghe.github.io/administration-coordination-portfolio/" target="_blank" rel="noopener">Administration &amp; Coordination Portfolio</a></p>
+      <div class="btnrow"><a class="btn solid" href="files/Rasadari_Ranasinghe_Sustainability_Profile.pdf">Download Sustainability Profile (PDF)</a></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© 2026 Rasadari Ranasinghe | Sustainability &amp; ESG Portfolio | Toronto, Ontario</div>
+</footer>
+</body>
+</html>
